@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <title>Inscrição Aluno</title>
+</head>
+<body>
+    <div class="container">
+        <div class="centralized-box">
+            <h2>Inscreva-se na Sala</h2>
+            <form id="formInscricaoAluno">
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="horario">Horário</label>
+                    <select id="horario" class="form-control">
+                        <option value="7h às 12h">7h às 12h</option>
+                        <option value="13h às 18h">13h às 18h</option>
+                        <option value="7h às 18h">7h às 18h</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-success">Inscrever-se</button>
+            </form>
+        </div>
+    </div>
+    <script src="/public/js/script.js"></script>
+</body>
+</html>
